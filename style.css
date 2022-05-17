@@ -1,0 +1,35 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(252, 249, 249);
+    color:rgb(65, 149, 202);
+}
+
+.content {
+    width: 75%;
+    height: 14%;
+    border: 0.1em solid rgb(65, 149, 202);
+    margin: auto;
+    padding: auto;
+    border-radius: 0.3em;
+    background-color: white;
+    margin-bottom: 2em;
+
+
+}
+
+nav{
+    position: fixed;
+    order: 1;
+}
+
+nav, main {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+main {
+    order: 2;
+}
